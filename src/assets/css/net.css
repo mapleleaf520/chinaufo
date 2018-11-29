@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+#gmap {display:block; width:557px; height:463px; background:url(../images/aochi/net/map.png) no-repeat; position:relative; margin:0 auto;}
+#gmap a {color:#000; font-family:arial, sans-serif; font-size:1.2em; font-weight:bold; text-transform:uppercase;}
+
+a#title2, a#title2:visited {display:block; width:550px; height:617px; padding-top:260px; position:absolute; left:0; top:0; cursor:default; text-decoration:none;}
+* html a#title2 {height:617px; he\ight:0;}/*IE6.0以下中显示*/
+#gmap a#title2:hover { overflow:visible; color:#c00;}
+
+.map{margin-top:10px;overflow:hidden;width:100%; font-size:12px;}
+.map .choose{width:100%;height:21px;}
+.map .choose select{height:19px;border:1px solid #c8c8c8;line-height:19px;float:left;width:135px;margin-right:9px;color:#777777;}
+.map .choose select.sl3{width:235px;}
+.map .biaoge{width:100%;overflow:hidden;color:#777777;margin-top:40px;}
+.map .biaoge tr td{background:#feffff;height:25px;text-align:center;}
+.map .biaoge tr.first td{background:#F1F1F1;font-weight:bold;color:#D03A38;}
+.mapsearch{float:right;border:none;height: 21px;width: 55px;background: url(../images/aochi/net/mapsearch.png) no-repeat;cursor:pointer}
+
+/*新疆*/
+a#xj {display:block; width:222px; height:0; padding-top:168px; overflow:hidden; position:absolute; left:1px; top:55px;}
+* html a#xj {height:168px; he\ight:0;text-indent:-9000px;}
+a#xj:hover {background:url(../images/aochi/net/xinjiang.png) no-repeat 0 0;overflow:visible;text-indent:-9000px;}
+.xinjiang {background:url(../images/aochi/net/xinjiang.png) no-repeat 0 0;overflow:visible;text-indent:-9000px;}
+/*西藏*/
+a#xz {display:block; width:215px; height:0; padding-top:130px; overflow:hidden; position:absolute; left:25px; top:214px;}
+* html a#xz {height:130px; he\ight:0;}
+a#xz:hover {background:url(../images/aochi/net/xizang.png) no-repeat  0 0;overflow:visible;text-indent:-9000px;}
+.xizang{background:url(../images/aochi/net/xizang.png) no-repeat  0 0;overflow:visible;text-indent:-9000px;}
+/*青海*/
+a#qh {display:block; width:138px; height:0; padding-top:99px; overflow:hidden; position:absolute; left:145px; top:187px;}
+* html a#qh {height:99px; he\ight:0;}
+a#qh:hover {background:url(../images/aochi/net/qinghai.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.qinghai {background:url(../images/aochi/net/qinghai.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*甘肃*/
+a#gs {display:block; width:156px; height:0; padding-top:131px; overflow:hidden; position:absolute; left:187px; top:146px;}
+* html a#gs {height:131px; he\ight:0;}
+a#gs:hover {background:url(../images/aochi/net/gansu.png) no-repeat 0 0; overflow:visible;text-indent:-9001px;}
+.gansu {background:url(../images/aochi/net/gansu.png) no-repeat 0 0; overflow:visible;text-indent:-9001px;}
+/*内蒙古*/
+a#lmg {display:block; width:243px; height:0; padding-top:207px; overflow:hidden; position:absolute; left:234px; top:5px;}
+* html a#lmg {height:207px; he\ight:0;}
+a#lmg:hover {background:url(../images/aochi/net/neimenggu.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.neimenggu {background:url(../images/aochi/net/neimenggu.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*黑龙江*/
+a#hlj {display:block; width:123px; height:0; padding-top:111px; overflow:hidden; position:absolute; left:433px; top:0px;}
+* html a#hlj {height:106px; he\ight:0;}
+a#hlj:hover {background:url(../images/aochi/net/heilongjiang.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.heilongjiang {background:url(../images/aochi/net/heilongjiang.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*宁夏*/
+a#nx {display:block; width:31px; height:0; padding-top:52px; overflow:hidden; position:absolute; left:298px; top:191px;}
+* html a#nx {height:52px; he\ight:0;}
+a#nx:hover {background:url(../images/aochi/net/ningxia.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.ningxia {background:url(../images/aochi/net/ningxia.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*吉林*/
+a#jl {display:block; width:92px; height:0; padding-top:62px; overflow:hidden; position:absolute; left:453px; top:88px;}
+* html a#jl {height:62px; he\ight:0;}
+a#jl:hover {background:url(../images/aochi/net/jilin.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.jilin {background:url(../images/aochi/net/jilin.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*辽宁*/
+a#ln {display:block; width:65px; height:0; padding-top:61px; overflow:hidden; position:absolute; left:438px; top:125px;}
+* html a#ln {height:61px; he\ight:0;}
+a#ln:hover {background:url(../images/aochi/net/liaoning.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.liaoning {background:url(../images/aochi/net/liaoning.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*山东*/
+a#sd {display:block; width:74px; height:0; padding-top:47px; overflow:hidden; position:absolute; left:409px; top:199px;}
+* html a#sd {height:47px; he\ight:0;}
+a#sd:hover {background:url(../images/aochi/net/sandong.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.shandong {background:url(../images/aochi/net/sandong.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+/*河北*/
+a#hb {display:block; width:61px; height:0; padding-top:86px; overflow:hidden; position:absolute; left:390px; top:142px;}
+* html a#hb {height:86px; he\ight:0;}
+a#hb:hover {background:url(../images/aochi/net/hebei.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.hebei {background:url(../images/aochi/net/hebei.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*北京*/
+a#bj {display:block; width:25px; height:0; padding-top:20px; overflow:hidden; position:absolute; left:401px; top:163px;}
+* html a#bj {height:25px; he\ight:0;}
+a#bj:hover {background:url(../images/aochi/net/beijing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.beijing{background:url(../images/aochi/net/beijing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*天津*/
+a#tj {display:block; width:28px; height:0; padding-top:21px; overflow:hidden; position:absolute; left:422px; top:171px;}
+* html a#tj {height:21px; he\ight:0;}
+a#tj:hover {background:transparent url(../images/aochi/net/tianjing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.tianjing {background:transparent url(../images/aochi/net/tianjing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*陕西*/
+a#shx {display:block; width:56px; height:0; padding-top:99px; overflow:hidden; position:absolute; left:312px; top:188px;}
+* html a#shx {height:99px; he\ight:0;}
+a#shx:hover {background:url(../images/aochi/net/sanxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.shxi {background:url(../images/aochi/net/sanxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*山西*/
+a#sx {display:block; width:38px; height:0; padding-top:82px; overflow:hidden; position:absolute; left:360px; top:170px;}
+* html a#sx {height:73px; he\ight:0;}
+a#sx:hover {background:url(../images/aochi/net/shanxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.shanxi {background:url(../images/aochi/net/shanxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*河南*/
+a#hn {display:block; width:64px; height:0; padding-top:61px; overflow:hidden; position:absolute; left:363px; top:226px;}
+* html a#hn {height:61px; he\ight:0;}
+a#hn:hover {background:transparent url(../images/aochi/net/henan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.henan {background:transparent url(../images/aochi/net/henan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*江苏*/
+a#js {display:block; width:65px; height:0; padding-top:50px; overflow:hidden; position:absolute; left:424px; top:237px;}
+* html a#js {height:50px; he\ight:0;}
+a#js:hover {background:transparent url(../images/aochi/net/jiangsu.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.jiangsu {background:transparent url(../images/aochi/net/jiangsu.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*安徽*/
+a#ah {display:block; width:53px; height:0; padding-top:64px; overflow:hidden; position:absolute; left:411px; top:245px;}
+* html a#ah {height:64px; he\ight:0;}
+a#ah:hover {background:transparent url(../images/aochi/net/anhui.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.anhui {background:transparent url(../images/aochi/net/anhui.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*上海*/
+a#sh {display:block; width:25px; height:0; padding-top:14px; overflow:hidden; position:absolute; left:468px; top:272px;}
+* html a#sh {height:14px; he\ight:0;}
+a#sh:hover {background:transparent url(../images/aochi/net/shanghai.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.shanghai {background:transparent url(../images/aochi/net/shanghai.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*浙江*/
+a#zj {display:block; width:42px; height:0; padding-top:48px; overflow:hidden; position:absolute; left:451px; top:286px;}
+* html a#zj {height:48px; he\ight:0;}
+a#zj:hover {background:transparent url(../images/aochi/net/zhejiang.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.zhejiang{background:transparent url(../images/aochi/net/zhejiang.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*江西*/
+a#jx {display:block; width:53px; height:0; padding-top:71px; overflow:hidden; position:absolute; left:402px; top:305px;}
+* html a#jx {height:71px; he\ight:0;}
+a#jx:hover {background:transparent url(../images/aochi/net/jiangxi.png) no-repeat; overflow:visible;text-indent:-9000px;}
+.jiangxi {background:transparent url(../images/aochi/net/jiangxi.png) no-repeat; overflow:visible;text-indent:-9000px;}
+
+/*福建*/
+a#hj {display:block; width:48px; height:0; padding-top:59px; overflow:hidden; position:absolute; left:430px; top:323px;}
+* html a#hj {height:59px; he\ight:0;}
+a#hj:hover {background:transparent url(../images/aochi/net/fujian.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.fujian{background:transparent url(../images/aochi/net/fujian.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*广东*/
+a#gd {display:block; width:93px; height:0; padding-top:69px; overflow:hidden; position:absolute; left:362px; top:364px;}
+* html a#gd {height:69px; he\ight:0;}
+a#gd:hover {background:transparent url(../images/aochi/net/guangdong.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.guangdong {background:transparent url(../images/aochi/net/guangdong.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*海南*/
+a#hl {display:block; width:28px; height:0; padding-top:24px; overflow:hidden; position:absolute; left:349px; top:435px;}
+* html a#hl {height:24px; he\ight:0;}
+a#hl:hover {background:transparent url(../images/aochi/net/hainan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.hainan {background:transparent url(../images/aochi/net/hainan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*广西*/
+a#gx {display:block; width:86px; height:0; padding-top:65px; overflow:hidden; position:absolute; left:300px; top:355px;}
+* html a#gx {height:65px; he\ight:0;}
+a#gx:hover {background:transparent url(../images/aochi/net/guangxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.guangxi {background:transparent url(../images/aochi/net/guangxi.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*贵州*/
+a#gz {display:block; width:66px; height:0; padding-top:57px; overflow:hidden; position:absolute; left:290px; top:320px;}
+* html a#gz {height:57px; he\ight:0;}
+a#gz:hover {background:transparent url(../images/aochi/net/guizhou.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.guizhou {background:transparent url(../images/aochi/net/guizhou.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*云南*/
+a#yn {display:block; width:97px; height:0; padding-top:101px; overflow:hidden; position:absolute; left:221px; top:322px;}
+* html a#yn {height:92px; he\ight:0;}
+a#yn:hover {background:transparent url(../images/aochi/net/yunnan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.yunnan {background:transparent url(../images/aochi/net/yunnan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*四川*/
+a#sc {display:block; width:120px; height:0; padding-top:105px; overflow:hidden; position:absolute; left:224px; top:256px;}
+* html a#sc {height:105px; he\ight:0;}
+a#sc:hover {background:transparent url(../images/aochi/net/sichuan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.sichuan {background:transparent url(../images/aochi/net/sichuan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*重庆*/
+a#cq {display:block; width:49px; height:0; padding-top:49px; overflow:hidden; position:absolute; left:312px; top:284px;}
+* html a#cq {height:49px; he\ight:0;}
+a#cq:hover {background:transparent url(../images/aochi/net/chongqing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.chongqing {background:transparent url(../images/aochi/net/chongqing.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*湖南*/
+a#hun {display:block; width:61px; height:0; padding-top:69px; overflow:hidden; position:absolute; left:350px; top:307px;}
+* html a#hun {height:69px; he\ight:0;}
+a#hun:hover {background:transparent url(../images/aochi/net/hunan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.hunan {background:transparent url(../images/aochi/net/hunan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*湖北*/
+a#hub {display:block; width:83px; height:0; padding-top:51px; overflow:hidden; position:absolute; left:344px; top:269px;}
+* html a#hub {height:51px; he\ight:0;}
+a#hub:hover {background:transparent url(../images/aochi/net/hubei.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.hubei {background:transparent url(../images/aochi/net/hubei.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+
+/*台湾*/
+a#tw {display:block; width:24px; height:0; padding-top:44px; overflow:hidden; position:absolute; left:478px; top:357px;}
+* html a#tw {height:44px; he\ight:0;}
+a#tw:hover {background:transparent url(../images/aochi/net/taiwan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}
+.taiwan {background:transparent url(../images/aochi/net/taiwan.png) no-repeat 0 0; overflow:visible;text-indent:-9000px;}

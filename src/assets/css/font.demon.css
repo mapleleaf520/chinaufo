@@ -1,0 +1,37 @@
+/*
+ * �Զ������� 
+ * Author: lihy
+ * License: font.demon v1.0
+ * QQ:1054397993
+ * 
+ * -------------------------------------------------------------------
+ * 
+ */
+@font-face {
+        font-family: NOTOSANSHANS-BLACK;
+        src: url('fonts/NOTOSANSHANS-BLACK.ttf'); /* ,url('http://hovertree.com/themes/fonts/Sansation_Light.eot')IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-BOLD;
+        src: url('fonts/NOTOSANSHANS-BOLD.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-DEMILIGHT;
+        src: url('fonts/NOTOSANSHANS-DEMILIGHT.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-LIGHT;
+        src: url('fonts/NOTOSANSHANS-LIGHT.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-MEDIUM;
+        src: url('fonts/NOTOSANSHANS-MEDIUM.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-REGULAR;
+        src: url('fonts/NOTOSANSHANS-REGULAR.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }
+@font-face {
+        font-family: NOTOSANSHANS-THIN-WINDOWS;
+        src: url('fonts/NOTOSANSHANS-THIN-WINDOWS.ttf'); /*,url('http://hovertree.com/themes/fonts/Sansation_Light.eot'); IE9+ */
+    }

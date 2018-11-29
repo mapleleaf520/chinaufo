@@ -1,0 +1,24 @@
+/*=========mF_fscreen_tb========*/
+.mF_fscreen_tb_wrap{padding:8px;border:1px solid #999;float:left;background:#fff;}/*背景边框*/
+.mF_fscreen_tb { background:#fff; position:relative;}
+.mF_fscreen_tb .loading{ position:absolute; width:100%; height:100%; background:#fff url(img/loading.gif) center no-repeat; z-index:9;}
+.mF_fscreen_tb .pic { position:absolute; top:0; width:90%; height:75%; left:36px;}
+.mF_fscreen_tb .pic li { position:absolute;  overflow:hidden; display:none; }
+.mF_fscreen_tb .pic li i {display:inline-block; height:100%;vertical-align:middle}
+.mF_fscreen_tb .pic li img { width:650px; height:420px; display:inline; zoom: 1; opacity: 1; z-index: 1;}
+.mF_fscreen_tb .thumb_bg { position:absolute; border-top:1px solid #fff; bottom:40px; left:0; width:100%; background:#000; filter:alpha(opacity=40); opacity:0.2;}
+.mF_fscreen_tb .thumb { position:absolute; bottom:40px; overflow:hidden; }
+.mF_fscreen_tb .thumb ul { position:relative; top:0; left:0;/*补偿父层的margin*/}
+.mF_fscreen_tb .thumb ul li { float:left; overflow:hidden; cursor:pointer; }
+.mF_fscreen_tb .thumb ul li a { display:block;border-top:1px solid #999; margin:8px;}
+.mF_fscreen_tb .thumb ul li a img { position:relative; z-index:1; width:100%; filter:alpha(opacity=80); opacity:0.9; }
+.mF_fscreen_tb .thumb ul li.current a { border-bottom:5px solid #cc1f1f}
+
+.mF_fscreen_tb .txt li { position:absolute; z-index:8; top:410px; width:100%; line-height:20px; font-family:'微软雅黑'; }/*标题*/
+.mF_fscreen_tb .txt li p { display:block; color:#111; padding:16px; font-size:14px; text-decoration:none; text-indent:0}/*详细描述文字样式*/
+.mF_fscreen_tb .showNum {color:#4d4d4d; font-size:16px; font-style:italic; font-family:geprgia, Georgia, sans-serif; padding:20px 20px 20px 30px; float:left;text-align:left}/* 图片总数 */
+.mF_fscreen_tb .nowNum {color:#cc1a1a; font-size:36px;}/* 图片现在第几张 */
+.mF_fscreen_tb .prev { width:50%; height:70%; display:block; position:absolute; z-index: 9; left:0; top:0px;background:rgb(255, 255, 255);opacity:0;filter:alpha(opacity=0);_zoom:1;}
+.mF_fscreen_tb .next { width:50%; height:70%; display:block; position:absolute; z-index: 9; right:0; top:0px;background:rgb(255, 255, 255);opacity:0;filter:alpha(opacity=0);_zoom:1;}
+.focus_prev { width:100%; height:100%; display:block; outline:none; z-index: 9; text-decoration:underline; }
+.focus_next { width:100%; height:100%; display:block; outline:none; z-index: 9; text-decoration:underline; }

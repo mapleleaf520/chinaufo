@@ -1,0 +1,293 @@
+body {
+	font-family:"microsoft yahei", arial;
+	padding: 0;
+	margin: 0;
+}
+body, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a { color:#000; text-decoration:none}
+a:hover { text-decoration:none}
+#main {
+	background: #008cdb ;         /*url(../images/aochi/bg.jpg) repeat-x*/
+	width: 100%;
+	overflow: hidden;
+	min-height: 772px;
+	margin: 0 auto;
+	position: relative;
+	min-width: 1100px;
+}
+#p {
+	height: 460px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+	z-index: 1;
+	text-align: center;
+}
+#top {
+	width: 1150px;
+	height:91px;
+	margin: 0 auto;
+}
+#btom {
+	font-family:"microsoft yahei", arial
+}
+
+/* 页面导航栏开始 */
+#main_nav ul {
+	font-size: 13px;
+	list-style: none;
+}
+
+#main_nav {
+	height: 46px;
+	overflow: visible;
+	float:right;
+	margin-top:-25px;
+	margin-right:18px;
+	position:relative;
+	z-index:1000;
+	font-family:"microsoft yahei", arial
+}
+
+#main_nav li {
+	float: left;
+	position: relative;
+	z-index: 2000;
+}
+
+#main_nav li a {
+	font-weight:bold;
+	display: block;
+	float:left;
+	padding:0 28px 0 20px;
+	height: 35px;
+	text-decoration: none;
+	line-height: 35px;
+	text-align: center;
+	margin-top: 2px;
+	color:#e4e0ef
+}
+
+#main_nav li ul li a {
+	font-size: 12px;
+
+	height: 35px;
+	line-height: 35px;
+	margin: 0px;
+	padding:0;
+	display: block;
+	border-bottom:1px solid #333;
+	width:100%;
+
+}
+#main_nav li ul li a:hover, #main_nav li.focus ul li a:hover {
+		background:#333 ;
+	color:#fff;
+}
+
+#main_nav li.focus a, #main_nav li a:hover {
+	background:rgb(14,54,134) ;color:#fff;
+}
+
+#main_nav li.focus ul li a {
+	background: none;
+	color:#fff;
+	
+}
+
+#main_nav li ul {
+	position: absolute;
+	top: 36px;
+	left: 0px;
+	background: #444;
+	display: none;
+	width:100%;
+}
+
+#main_nav li ul li{
+	float: none;
+}
+/* 页面导航栏end */
+
+/* 导航栏产品展示开始  */
+#main_nav .product_li {
+	position: static;
+}
+#main_nav .product_li ul{
+	min-height:300px;
+	opacity:.95;
+	width:750px;
+	box-shadow: 0 0px 15px #999;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+#main_nav .focus .product_nav a{
+	float:none;
+	width:120px;
+	background: #444;
+}
+#main_nav .product_nav a{
+	float:none;
+	width:120px;
+	background: #444;
+}
+#main_nav .product_div {
+	border-bottom-right-radius: 4px;
+	position:absolute;
+	right:0;
+	width:615px;
+	padding-left:15px;
+	min-height:240px;
+	background:#fff;
+	display:none
+}
+#main_nav .product_prod {
+	float:left;
+	width:195px;
+	height:120px;
+	padding:20px 5px 0 5px;
+}
+#main_nav .product_prod a{
+	width:195px;
+	height:100px;
+	border:0;
+	padding:10px 0 0 0
+}
+#main_nav .product_prod a .menu_price{
+	text-align: right;
+	padding-right: 20px;
+	color:#999;
+	font-weight: normal;
+}
+#main_nav .focus .product_prod a:hover{
+	background:#fff
+}
+#main_nav .focus .product_prod a:hover >img{
+	box-shadow: 5px 5px 10px #888;
+}
+#main_nav .product_prod a p{
+	height:18px;
+	line-height:0px;
+	color:#000;
+	margin:0
+}
+/* 导航栏产品展示end */
+/*首页flash*/
+#link li{width:16px;height:16px;margin-left:1px;background:rgb(32,32,32);float:left;cursor:pointer}
+/* 首页flash展示end */
+/*首页foot*/
+#index_foot{width:100%;height:35px;margin: 0 auto;background:url(../images/aochi/index_ft.jpg) repeat;}
+.foot_yqlj{text-align: center;width:150px;float:left;color:#ccc;margin-left:20px;}
+#yqlj{cursor: pointer; background: none; border: none; outline: none; color: #ccc}
+.foot_yqlj a{color:#ccc;height: 35px;line-height: 35px;margin: 0px;padding: 0;display: block;border-bottom: 1px solid #333;width: 100%;}
+.foot_yqlj a:hover{background:#333;}
+.foot_yqlj ul{position:absolute;z-index: 2000;width:150px;box-shadow: 0 0px 3px #999;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;display:none}
+.foot_yqlj li {float: left;background:#444;width:150px}
+/* 首页foot展示end */
+/*页面footer*/
+#foot {background:rgb(246,246,246); }
+#footer {width:990px;margin:0 auto;height:100px;background: url(../images/web/titbg.png) repeat-x 0px -130px; }
+#footer .roundleft{float:left;background: url(../images/web/titbg.png) repeat-x 0px -115px; height:10px;width:8px;}
+#footer .roundright{float:right;background: url(../images/web/titbg.png) repeat-x -8px -115px; height:10px;width:8px;}
+#footer .con {padding:10px 0; } 
+#footer p {margin:0;padding:5px 0;text-align:center;color:#000;font-size:13px;}
+/*页面footer   end*/
+/*官方微信的背景*/
+#gfwx_show{padding: 10px 10px; width: 215px; height:215px;margin:0 auto;padding:0;background:url(../images/aochi/weixin.jpg)}
+/*奥驰标志的背景*/
+#aochi_biao{padding-top:13px;margin-left:25px;width:395px;height:66px;background:url(../images/aochi/logo.png) no-repeat 0 13px}
+/*搜索的背景*/
+#bntso{border:0;height:32px;width:44px;cursor:pointer;background:url(../images/aochi/serch_bt.jpg);}
+#txtso{color:#aaa;float:right;border:0;padding:0 0 0 5px;line-height: 32px;height:32px;width:133px;background:url(../images/aochi/serch_bg.jpg)}
+.login_top{float:right;color:#ccc;width: 100px;font-size: 13px;height:36px;margin-right:10px;text-align:right;color:#e4e0ef;line-height:36px;}
+.login_top a:hover{text-decoration: underline;}
+#weixin_head{float:right;color:#e4e0ef;width:66px;height:36px;line-height:34px;background:url(../images/aochi/topBt.jpg)}
+#weixin_btn{width:28px;height:28px;margin:4px 0 0 5px;border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;background:url(../images/aochi/wx.png);}
+#flash_tt{width: 1300px;height:9px;margin: 0 auto;background:url(../images/aochi/flash_tt.jpg);}
+/*正文的背景*/
+.content_bg {min-height: 580px; background:rgb(246,246,246); }
+.content {width: 990px;margin-left: auto;margin-right: auto;}
+.content a {text-decoration: none;font-size: 12px;}
+/*首页下方新闻样式*/
+.btom{width:380px;height:90px;float:right;position:relative}
+.btom img{position:absolute;top:-5px;left:-138px;border:none;display:inline;border:1px solid rgb(14, 54, 134);cursor:pointer}
+.bt_news{position:absolute;top:5px;left:165px;float:left;color:#eee;font-size:12px;letter-spacing:.1em;line-height:28px;padding-left:5px;}
+.bt_news a{background:url(../images/aochi/sanjiao.gif) no-repeat 0 5px;padding-left:5px;cursor:pointer;color:#e4e0ef}
+.fwzxImg{background:url(../images/aochi/fwzx.jpg);height:87px;width:133px;position:absolute;top:0px;left:27px;border:1px solid rgb(14, 54, 134)
+}
+/* 产品分类 ------------------ */
+.category { height:60px;background:url(../images/aochi/fl_tit.png) no-repeat right top}
+.showCate { height:60px; overflow:hidden;zoom:1;}
+.showCate h1{ font-size:22px; padding-bottom:5px; padding-left:26px; color:#2e2e2e;font-weight:normal;clear:both}
+.productionBox {  background:url(../images/aochi/content_bg.png);overflow:hidden;zoom:1;}
+
+a.showPro, a.showPro:link, a.showPro:visited, a.showPro:hover, a.showPro:active {
+    background: url(../images/aochi/content_Btn.png);
+    _background: url(../images/aochi/content_Btn.png);
+    color: #292929;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 14px;
+    width: 91px;
+    display:block;
+    clear:both;
+}
+
+.production { overflow:hidden;zoom:1; padding-left:22px; padding-bottom:12px;}
+.production div { width:213px; height:227px; padding:7px; background: url(../images/aochi/car_bg.jpg); float:left; margin-left:7px; margin-bottom:8px;}
+.production div:hover { background:url(../images/aochi/prodHove.jpg);}
+.production div img { margin-left:auto; margin-right:auto; display:block;}
+.production div strong { display:block; font-size:14px; font-weight:normal; padding-top:10px; +padding-top:18px; padding-bottom:6px;+padding-bottom:4px;_padding-bottom:4px; margin-left:13px; margin-right:15px;}
+.production div strong span { float:right; color:#747474; font-size:12px;}
+.production div p { color:#7f7f7f; font-size:14px;margin:0 0 0 13px; padding-bottom:8px; +padding-bottom:6px;_padding-bottom:6px;}
+.production a.showPro , .production a.showPro:link , .production a.showPro:visited , .production a.showPro:hover , .production a.showPro:active { margin-left:auto; margin-right:auto; display:inline-block; margin-left:10px; _margin-left:0px;}
+.production h2 {clear: both;font-size: 18px;margin: 0;font-weight: normal;color: #2e2e2e;padding-bottom: 10px;padding-left: 4px;padding-top: 20px;}
+.categoryBt div { height:20px; background:url(../images/aochi/categoryBt.png) no-repeat center bottom;}
+.categoryBt { padding-bottom:15px;}
+/* 产品分类 end ------------------ */
+/* 返回顶部开始 */
+
+.toTop {
+    display: none;
+    padding:0;
+    position: fixed;
+    _position: absolute;
+    left:50%;
+    margin-left:494px;
+    bottom: 150px;
+    _bottom: auto;
+    cursor: pointer;
+    width: 35px;
+    height:35px;
+    background:url(../images/aochi/returnTop.png) no-repeat left top;
+}
+.showWx {
+    padding:0;
+    position: fixed;
+    _position: absolute;
+    font-size:13px;
+    text-align:center;
+    line-height:12px;
+    letter-spacing:.1em;
+    left:50%;
+    margin-left:494px;
+    bottom: 10px;
+    _bottom: auto;
+    cursor: pointer;
+    width: 100px;
+    height:124px;
+    background:#fff
+}
+/* 返回顶部end ------------------ */
