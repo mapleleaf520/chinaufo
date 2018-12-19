@@ -1037,42 +1037,6 @@ body.side-right > .wrapper{
     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu li{ padding-left:15px;}
 }
 
-/*
-    首页添加产品 滚动  2018 06 15 small qiao
-*/
-.slider {
-    width: 100%;
-    margin: 0px auto;
-}
-
-.slick-slide {
-    margin: 0px 20px;
-    height:auto;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-prev:before,
-.slick-next:before {
-    color: black;
-}
-
-
-.slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: .2;
-}
-
-.slick-active {
-    opacity: 1;/*-------------------------此处修改我们的车型  其他车型的透明度    0.5  为模糊  1为正常-------------*/
-}
-
-.slick-current {
-    opacity: 1;
-}
-
 
 /*
   2018-06-25
